@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var kg = prompt("자신의 몸무게(kg)을 입력해주세요.");
+        var m = prompt("자신의 키(m)을 입력해주세요.");
+        kgn = Number(kg);
+        mn = Number(m);
+
+        var bmi = kgn/Math.pow(mn,2);
+       console.log("당신의 BMI는"+ " "+ bmi.toFixed(1) +" "+"입니다.");
+       document.write("당신의 BMI는"+ " "+ bmi.toFixed(1) +" "+"입니다.");
+
+       var cm = prompt("자신의 키(cm)를 입력해주세요.")
+       cmn = Number(cm);
+       var bmi2 = kgn/Math.pow(cm/100,2);
+       console.log("당신의 BMI는"+ " "+ bmi2.toFixed(1) +" "+"입니다.");
+       document.write("당신의 BMI는"+ " "+ bmi2.toFixed(1) +" "+"입니다.");
+    </script>
+</body>
+</html>
