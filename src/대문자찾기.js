@@ -10,10 +10,10 @@
 
 let input = `KoreaTimeGood`
 function solution(input) {
-    let answer = 0;
-    for(let index of input) {
-        if(index === index.toUpperCase()) answer += 1;
-    }
-    return answer
+  let answer = 0;
+  for(let index of input) {
+    if(index === index.toUpperCase()) answer += 1;
+  }
+  return answer
 }
 console.log(solution(input));
